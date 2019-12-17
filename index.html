@@ -29,7 +29,22 @@
         </nav>
     </header>
     <script>
-
+        var cambia = false;
+        function ver() {
+            if (cambia != true) {
+                document.getElementById('cosa1').style.left = "-300px";
+                document.getElementById('cosa2').style.left = "-300px";
+                document.getElementById('cosa3').style.left = "-300px";
+                document.getElementById('cosa4').style.left = "-300px";
+                cambia = true;
+            } else {
+                document.getElementById('cosa1').style.left = "800px";
+                document.getElementById('cosa2').style.left = "800px";
+                document.getElementById('cosa3').style.left = "800px";
+                document.getElementById('cosa4').style.left = "800px";
+                cambia = false;
+            }
+        }
     </script>
 </body>
 </html>
