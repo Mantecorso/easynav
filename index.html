@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="container1">
+        <nav class="navegador">
+            <div class="imagen">
+                <img src="" alt="" class="logo">
+            </div>
+            <ul class="menu">
+                <li class="botones"><a href="#">UNO</a></li>
+                <li class="botones"><a href="#">DOS</a></li>
+                <li class="botones"><a href="#">TRES</a></li>
+                <li class="botones"><a href="#">CUATRO</a></li>
+            </ul>
+            <div class="menu2">
+                <img src="" alt="" class="logomenu" onclick="ver()">
+                <p class="minibotones" id="cosa1"><a href=""></a></p>
+                <p class="minibotones" id="cosa2"><a href=""></a></p>
+                <p class="minibotones" id="cosa3"><a href=""></a></p>
+                <p class="minibotones" id="cosa4"><a href=""></a></p>
+            </div>
+        </nav>
+    </header>
+    <script>
+        var cambia = false;
+        function ver() {
+            if (cambia != true) {
+
+                cambia = true;
+            } else {
+
+                cambia = false;
+            }
+        }
+    </script>
+</body>
+</html>
