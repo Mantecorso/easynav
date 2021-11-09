@@ -67,7 +67,7 @@
 
     .minibotones {
         position: absolute;
-        top: 10px;
+        top: 55px;
         left: 800px;
         padding-top: 10px;
         padding-bottom: 10px;
@@ -90,19 +90,19 @@
     }
 
     #cosa1 {
-        top: 10px;
+        top: 55px;
         transition: all .7s ease-in-out;
     }
     #cosa2 {
-        top: 55px;
+        top: 100px;
         transition: all 1s ease-in-out;
     }
     #cosa3 {
-        top: 100px;
+        top: 145px;
         transition: all 1.3s ease-in-out;
     }
     #cosa4 {
-        top: 145px;
+        top: 190px;
         transition: all 1.6s ease-in-out;
     }
 
